@@ -3,6 +3,11 @@ body {
     font-family: "Nunito";
 }
 
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
 .main-container {
     max-width: 75vw;
     margin: 30;
