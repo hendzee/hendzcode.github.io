@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link href="./src/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="top-content" class="d-flex flex-column align-items-center main-container">
+        <nav class="navbar navbar-expand-lg navbar-dark top-menu-container">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#top-content">
+                                <h4 class="top-menu distanced">Home</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portofolio-content-1">
+                                <h4 class="top-menu distanced">My Portofolio</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-content">
+                                <h4 class="top-menu">Contact Me</h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- LIST MENU END -->
+
+        <!-- TOP CONTENT START -->
+        <div class="d-sm-flex flex-row who-am-i-container">
+            <div class="me-5 top-left-container">
+                <div class="mb-5 welcome-title-container">
+                    <h5>Congratulation, you found me!</h5>
+                </div>
+                <div class="d-flex flex-row align-items-start mb-3">
+                    <i class="me-3 bi-person" style="font-size: 1rem; color: white;"></i>
+                    <p>
+                        Hello, welcome to my page. My name
+                        is hendras and i am a code writer.
+                        I've experienced about flutter and react
+                        native for 3 years.
+                    </p>
+                </div>
+                <div class="d-flex flex-row align-items-start mb-3">
+                    <i class="me-3 bi-signpost" style="font-size: 1rem; color: white;"></i>
+                    <p>I live in Malang, Indonesia.</p>
+                </div>
+                <div class="d-flex flex-row align-items-start mb-3">
+                    <i class="me-3 bi-star" style="font-size: 1rem; color: white;"></i>
+                    <p>
+                        I've created some mobile app like
+                        cooperation, borrowing book system
+                        app, events announcer app (e.g music concert,
+                        local festival, etc), culinary place information
+                        sharing app.
+                    </p>
+                </div>
+            </div>
+
+            <div class="me-5 me-image">
+                <img class="top-image" src="./src/images/me.png" alt="Hi, hendras here" />
+            </div>
+
+            <div class="d-flex flex-column top-right-container">
+                <div class="d-flex flex-row align-items-start mb-3">
+                    <i class="me-3 bi-wrench" style="font-size: 1rem; color: white;"></i>
+                    <div class="d-flex flex-column">
+                        <p>
+                            My another skill are make
+                            a simple app design with figma,
+                            create API / Whole web with
+                            laravel and GIT. Although i am a
+                            mobile coder, sometimes i also write
+                            web app. I've created some web app
+                            like expert system for cat disease,
+                            simple management web app for contractor and web
+                            profile for local restaurant.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row align-items-start mb-3">
+                    <i class="me-3 bi-suit-heart" style="font-size: 1rem; color: white;"></i>
+                    <div class="d-flex flex-column">
+                        <p>
+                            I also like to reading book, listerning music, playing game and writing story.
+                        </p>
+
+                        <div class="d-flex justify-content-center mt-3 button">
+                            Send me a message
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TOP CONTENT END -->
+
+        <!--PORTOFOLIO #1 START-->
+        <div id="portofolio-content-1" class="d-flex flex-column align-items-center portofolio-1">
+            <h2 class="m-5 subtitle">Poster</h2>
+            <div class="d-flex flex-row portofolio-1-content-container">
+                <img src="./src/images/portofolio_1.png" alt="Poster" class="me-4" />
+                <div class="d-flex flex-column mt-5 portofolio-desc-container">
+                    <p>
+                        <span style="font-weight: bold;">Poster</span> is application that provide information about
+                        local events like music concert, festival or community
+                        activity. User can share detail information like a name,
+                        price, location address and description. For more detail please
+                        look at video below
+                    </p>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P0vlK1lvxSU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <a href="https://www.youtube.com/embed/P0vlK1lvxSU"></a>
+                    <div class="d-flex justify-content-center mt-3 button">
+                        Ask me question
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--PORTOFOLIO #1 END-->
+
+        <!--PORTOFOLIO #2 START-->
+        <div class="d-flex flex-column align-items-center portofolio-2">
+            <h2 class="m-5 subtitle">Bookshelf</h2>
+            <div class="d-flex flex-row portofolio-1-content-container">
+                <img src="./src/images/portofolio_2.png" alt="Poster" class="me-4" />
+                <div class="d-flex flex-column mt-5 portofolio-desc-container">
+                    <p>
+                        <span style="font-weight: bold;">Bookshelf</span> is application that provide place
+                        to borrow book each user. User can borrow
+                        book in the same city with agreement time
+                        limit.
+                    </p>
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P0vlK1lvxSU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="d-flex justify-content-center mt-3 button">
+                        Ask me question
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--PORTOFOLIO #2 START-->
+
+        <div id="contact-content" class="d-flex flex-column align-items-center contact-me">
+            <h2 class="m-5 subtitle">Contact Me</h2>
+
+            <div class="d-flex flex-row mb-5 justify-content-between social-media-container">
+                <a href="https://github.com/hendzee/hendzee" target="_blank">
+                    <i class="me-3 bi-github"></i>
+                </a>
+                <a href="https://id.linkedin.com/in/virginia-hendras-43b378196" target="_blank">
+                    <i class="me-3 bi-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/virginia.hendras/?hl=en" target="_blank">
+                    <i class="me-3 bi-instagram"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="me-3 bi-google"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UC9tHVOBKyO4LxdIcuululTg" target="_blank">
+                    <i class="me-3 bi-youtube"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script>
+        jQuery(document).ready(function () {
+            $(window).scroll(function (event) {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 300 && $("#back-to-top").length == 0) {
+                    $("body").append("<a id='back-to-top' href='#top-content'>"
+                        + "<div class='d-flex justify-content-center align-items-center button-to-top'>"
+                        + "<i class='bi-arrow-up' style='font-size: 2rem; color: white;'></i>"
+                        + "</div></a>"
+                    );
+                    $("#back-to-top").hide().fadeIn(500);
+                } else if (scroll < 300 && $("#back-to-top").length > 0) {
+                    $("#back-to-top").fadeOut(500, function () {
+                        $("#back-to-top").remove();
+                    });
+                }
+            });
+        })
+    </script>
+</footer>
+
+</html>
