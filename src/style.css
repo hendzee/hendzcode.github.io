@@ -4,6 +4,33 @@ body {
     font-family: "Nunito";
 }
 
+a {
+    text-decoration: none;
+}
+
+a, a i {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-nav {
+    min-width: 100px;
+    background-color: #24262C;
+    padding-left: 10px;
+}
+
 .main {
     width: 90vw;
     align-self: center;
@@ -12,9 +39,12 @@ body {
 }
 
 .menu-button-container {
-    position: sticky;
-    top: 10px;
-    left: 10px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.menu-nav-button-container {
     width: 35px;
     height: 35px;
     border-radius: 18px;
@@ -194,7 +224,7 @@ icon-bullet {
 }
 
 #gmail {
-    background-color: #A0F90F;
+    background-color: #e55039;
 }
 
 .send-message-container {
@@ -214,4 +244,70 @@ icon-bullet {
 
 .send-message-text {
     font-size: 24px;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .image-profile-container {
+        height: 266px;
+    }
+
+    .image-profile-container img {
+        height: 266px;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    .image-profile-container {
+        height: 80px;
+    }
+
+    .image-profile-container img {
+        height: 170px;
+    }
+
+    .welcome-text {
+        font-size: 36px;
+        font-family: "Black Han Sans";
+        color: #F39C12;
+    }
+
+    .description-profile p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .image-profile-container {
+        height: 50px;
+    }
+
+    .image-profile-container img {
+        height: 80px;
+    }
+
+    .welcome-text {
+        font-size: 24px;
+        font-family: "Black Han Sans";
+        color: #F39C12;
+    }
+
+    .description-profile p{
+        font-size: 12px;
+    }
+
+    .vertical-divider {
+        width: 2px;
+        height: 666px;
+        background-color: white;
+    }
+
+    .subtitle {
+        font-size: 36px;
+        font-family: "Black Han Sans";
+    }
+
+    .skill-child {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
 }

@@ -18,9 +18,40 @@
 
 <body>
     <div class="main">
-        <div class="d-flex flex-row justify-content-center align-items-center menu-button-container">
-            <i class="bi-filter-left"></i>
-        </div>
+        <nav class="navbar navbar-dark menu-button-container">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="d-flex flex-row justify-content-center align-items-center menu-nav-button-container">
+                        <i class="bi-filter-left"></i>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active mt-2" href="#welcome">
+                                <div>Home</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portofolio">
+                                <div>Portofolio</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">
+                                <div>Skills</div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#social-media">
+                                <div>Social Media</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <div id="welcome">
             <div class="d-flex flex-row justify-content-center">
@@ -72,7 +103,7 @@
             </div>
         </div>
 
-        <div id="portofilio" class="d-flex flex-column align-items-center">
+        <div id="portofolio" class="d-flex flex-column align-items-center">
             <h5 class="mb-5 mr-auto ml-auto subtitle">PORTOFOLIO</h5>
             <div class="row portofilio-list-container">
                 <div class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-1">
@@ -165,25 +196,35 @@
 
         <div id="social-media" class="row">
             <div class="col-md-3 d-flex flex-row justify-content-center align-items-center social-media-container">
-                <i class="bi-github"></i>
-            </div>
-            <div id="instagram"
-                class="col-md-3 d-flex flex-row justify-content-center align-items-center social-media-container">
-                <i class="bi-instagram"></i>
-            </div>
-            <div id="linkedin"
-                class="col-md-3 d-flex flex-row justify-content-center align-items-center social-media-container">
-                <i class="bi-linkedin"></i>
+                <a href="https://github.com/hendzee/hendzee" target="_blank">
+                    <i class="bi-github"></i>
+                </a>
             </div>
             <div id="gmail"
                 class="col-md-3 d-flex flex-row justify-content-center align-items-center social-media-container">
-                <i class="bi-google"></i>
+                <a href="https://www.youtube.com/channel/UC9tHVOBKyO4LxdIcuululTg" target="_blank">
+                    <i class="bi-youtube"></i>
+                </a>
+            </div>
+            <div id="instagram"
+                class="col-md-3 d-flex flex-row justify-content-center align-items-center social-media-container">
+                <a href="https://www.instagram.com/virginia.hendras/?hl=en" target="_blank">
+                    <i class="bi-instagram"></i>
+                </a>
+            </div>
+            <div id="linkedin"
+                class="col-md-3 d-flex flex-row justify-content-center align-items-center social-media-container">
+                <a href="https://id.linkedin.com/in/virginia-hendras-43b378196" target="_blank">
+                    <i class="bi-linkedin"></i>
+                </a>
             </div>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center send-message-container">
-            <div class="d-flex flex-row justify-content-center align-items-center mb-3 send-message-icon-container">
-                <i class="bi-cursor"></i>
-            </div>
+            <a href="mailto:hendzcode@gmail.com">
+                <div class="d-flex flex-row justify-content-center align-items-center mb-3 send-message-icon-container">
+                    <i class="bi-cursor"></i>
+                </div>
+            </a>
             <div class="send-message-text">
                 Send Message
             </div>
