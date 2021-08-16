@@ -242,7 +242,9 @@ iframe {
 }
 
 #social-media {
-    width: 90.6vw;
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .social-media-container {
