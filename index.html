@@ -107,6 +107,12 @@
             <h5 class="mb-5 mr-auto ml-auto subtitle">PORTOFOLIO</h5>
             <div class="row portofilio-list-container">
                 <div class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-1">
+                    <div id="portofolio-1-hover">
+                        <div class="d-flex flex-row justify-content-center align-items-center w">
+                            <i class="me-5 bi-play-circle play-btn"></i>
+                            <h4 class="subtitle-play-demo">PLAY DEMO</h4>
+                        </div>
+                    </div>
                     <h5 class="mb-5 mr-auto ml-auto subtitle">POSTER</h5>
                     <div class="portofolio-desc-container">
                         <p>
@@ -117,6 +123,12 @@
                     </div>
                 </div>
                 <div class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-2">
+                    <div id="portofolio-2-hover">
+                        <div class="d-flex flex-row justify-content-center align-items-center w">
+                            <i class="me-5 bi-play-circle play-btn"></i>
+                            <h4 class="subtitle-play-demo">PLAY DEMO</h4>
+                        </div>
+                    </div>
                     <h5 class="mb-5 mr-auto ml-auto subtitle">BOOKSHELF</h5>
                     <div class="portofolio-desc-container">
                         <p>
@@ -243,6 +255,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $(".portofolio-1").mouseenter(function () {
+                $("#portofolio-1-hover").fadeIn("fast");
+            });
+            $("#portofolio-1-hover").mouseleave(function () {
+                $("#portofolio-1-hover").fadeOut("fast");
+            });
+
+            $(".portofolio-2").mouseenter(function () {
+                $("#portofolio-2-hover").fadeIn("fast");
+            });
+            $("#portofolio-2-hover").mouseleave(function () {
+                $("#portofolio-2-hover").fadeOut("fast");
+            });
+        });
+    </script>
 </footer>
 
 </html>

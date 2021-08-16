@@ -129,12 +129,39 @@ icon-bullet {
 .portofolio-1 {
     background-color: #222327;
     height: 412px;
+    position: relative;
+}
+
+.portofolio-1:hover, .portofolio-2:hover {
+    cursor: pointer;
+}
+
+#portofolio-1-hover, #portofolio-2-hover {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    height: 412px;
+    width: 100%;
+    display: none;
+}
+
+#portofolio-1-hover .w, #portofolio-2-hover .w {
+    height: 412px;
+}
+
+.subtitle-play-demo {
+    font-size: 36px;
+    font-family: "Black Han Sans";
+}
+
+.play-btn {
+    font-size: 64px;
 }
 
 .portofolio-2 {
     background-color: #2A2B2F;
     height: 412px;
-
+    position: relative;
 }
 
 .portofolio-desc-container {
