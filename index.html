@@ -107,7 +107,7 @@
             <h5 class="mb-5 mr-auto ml-auto subtitle">PORTOFOLIO</h5>
             <div class="row portofilio-list-container">
                 <div class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-1">
-                    <div id="portofolio-1-hover">
+                    <div data-bs-toggle="modal" data-bs-target="#exampleModal" id="portofolio-1-hover">
                         <div class="d-flex flex-row justify-content-center align-items-center w">
                             <i class="me-5 bi-play-circle play-btn"></i>
                             <h4 class="subtitle-play-demo">PLAY DEMO</h4>
@@ -124,7 +124,8 @@
                 </div>
                 <div class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-2">
                     <div id="portofolio-2-hover">
-                        <div class="d-flex flex-row justify-content-center align-items-center w">
+                        <div data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                            class="d-flex flex-row justify-content-center align-items-center w">
                             <i class="me-5 bi-play-circle play-btn"></i>
                             <h4 class="subtitle-play-demo">PLAY DEMO</h4>
                         </div>
@@ -241,6 +242,38 @@
                 Send Message
             </div>
         </div>
+
+        <!-- Videp Modal Start -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/x2PV-IDmUOc" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Videp Modal End -->
+
+        <!-- Videp Modal Start -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/5as11ObNhA0" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Videp Modal End -->
+
         <div class="mb-5"></div>
     </div>
 </body>
