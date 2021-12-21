@@ -5,14 +5,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./src/images/favicon.png" />
+
+    <!-- BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- GOOGLE FONT -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+
+    <!-- GOOGLE FONT -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black Han Sans">
+
+    <!-- FEATHER ICON -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"
         integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS -->
     <link href="./src/style.css" rel="stylesheet" />
 </head>
 
@@ -71,8 +84,9 @@
                         <p>
                             Hello, welcome to my page. My name
                             is Hendras and i am a mobile app enthusiast.
-                            I was experienced to code with flutter and react native
-                            for around 3 years.
+                            I have experienced for around 3 years to make mobile application
+                            both android and iOS with some programming language such as Flutter, React Native,
+                            Kotlin Jetpack and Swift.
                         </p>
                     </div>
                     <div class="d-flex flex-row mb-3">
@@ -106,38 +120,86 @@
         <div id="portofolio" class="d-flex flex-column align-items-center">
             <h5 class="mb-5 mr-auto ml-auto subtitle">PORTOFOLIO</h5>
             <div class="row portofilio-list-container">
-                <div class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-1">
-                    <div data-bs-toggle="modal" data-bs-target="#exampleModal" id="portofolio-1-hover">
-                        <div class="d-flex flex-row justify-content-center align-items-center w">
-                            <i class="me-5 bi-play-circle play-btn"></i>
-                            <h4 class="subtitle-play-demo">PLAY DEMO</h4>
-                        </div>
-                    </div>
-                    <h5 class="mb-5 mr-auto ml-auto subtitle">POSTER</h5>
+
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-odd portofolio">
+                    <img src="./src/images/logo_poster.png" width="100" class="mb-4" />
+                    <h5 class="mb-3 mr-auto ml-auto subtitle" id="subtitle-poster">POSTER</h5>
                     <div class="portofolio-desc-container">
                         <p>
-                            Poster is application for sharing event’s information like concert, festival and community
-                            activity. That provide information like description, ticket price and schedule.
+                            Poster is application was built by Flutter for sharing event’s information like concert,
+                            festival and community activity. That provide information like description, ticket price and
+                            schedule.
                         </p>
                     </div>
                 </div>
-                <div class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-2">
-                    <div id="portofolio-2-hover">
-                        <div data-bs-toggle="modal" data-bs-target="#exampleModal2"
-                            class="d-flex flex-row justify-content-center align-items-center w">
-                            <i class="me-5 bi-play-circle play-btn"></i>
-                            <h4 class="subtitle-play-demo">PLAY DEMO</h4>
-                        </div>
-                    </div>
-                    <h5 class="mb-5 mr-auto ml-auto subtitle">BOOKSHELF</h5>
+
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-even portofolio">
+                    <img src="./src/images/logo_bookshelf.png" width="100" class="mb-4" />
+                    <h5 class="mb-3 mr-auto ml-auto subtitle" id="subtitle-bookshelf">BOOKSHELF</h5>
                     <div class="portofolio-desc-container">
                         <p>
-                            Bookshelf is application that provide someone
+                            Bookshelf is application was built by React Native that provide someone
                             to borrow book from the other people in the same
-                            location or city.
+                            city.
                         </p>
                     </div>
                 </div>
+
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-even portofolio">
+                    <img src="./src/images/logo_same.png" width="100" class="mb-4" />
+                    <h5 class="mb-3 mr-auto ml-auto subtitle" id="subtitle-same">SAME</h5>
+                    <div class="portofolio-desc-container">
+                        <p>
+                            Same is Tinder-Like application was built by React Native.
+                            The diference about another kind of this app is Same will
+                            hiding user photo until they match. So the result is depend on
+                            their similarity of each other such as hobby, idea, etc that described
+                            in the profile card.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-odd portofolio">
+                    <img src="./src/images/logo_standings.png" width="100" class="mb-4" />
+                    <h5 class="mb-3 mr-auto ml-auto subtitle" id="subtitle-standings">STANDINGS</h5>
+                    <div class="portofolio-desc-container">
+                        <p>
+                            Standings is Flutter application to give simple information about your
+                            favourite club ranks. Including premiere league, Serie A, La Liga, Bundesliga,
+                            Moto GP, F1 etc. This also give information about recent match.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-odd portofolio">
+                    <img src="./src/images/logo_mobdex.png" width="100" class="mb-4" />
+                    <h5 class="mb-3 mr-auto ml-auto subtitle">MOBDEX</h5>
+                    <div class="portofolio-desc-container">
+                        <p>
+                            Mobdex or Mobile - Pokedex is application was built by Kotlin - Jetpack that purposed to
+                            provide
+                            pokemon information for pokemon fans.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="d-flex flex-column justify-content-center align-items-center col-md-6 portofolio-even portofolio">
+                    <img src="./src/images/logo_africa.png" width="100" class="mb-4" />
+                    <h5 class="mb-3 mr-auto ml-auto subtitle" id="subtitle-africa">AFRICA</h5>
+                    <div class="portofolio-desc-container">
+                        <p>
+                            An iOS application was built by Swift for entertain purpose and showing information about
+                            some animal in africa.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -149,20 +211,33 @@
                     <div class="mb-2 proggress-bar-container">
                         <div class="value-proggress-90"></div>
                     </div>
-                    <div class="mb-5 proggress-bar-note-green">Experienced around 3 years</div>
+                    <div class="mb-5 proggress-bar-note-green">Experienced to make React Native app</div>
 
                     <div class="mb-3 proggress-bar-title">Flutter</div>
                     <div class="mb-2 proggress-bar-container">
                         <div class="value-proggress-90"></div>
                     </div>
-                    <div class="mb-5 proggress-bar-note-green">Experienced around 3 years</div>
+                    <div class="mb-5 proggress-bar-note-green">Experienced to make Flutter App</div>
+
+                    <div class="mb-3 proggress-bar-title">Kotlin with Jetpack</div>
+                    <div class="mb-2 proggress-bar-container">
+                        <div class="value-proggress-90"></div>
+                    </div>
+                    <div class="mb-5 proggress-bar-note-green">Experienced to make Kotlin app</div>
+
+                    <div class="mb-3 proggress-bar-title">Swift</div>
+                    <div class="mb-2 proggress-bar-container">
+                        <div class="value-proggress-90"></div>
+                    </div>
+                    <div class="mb-5 proggress-bar-note-green">Experienced to make Swift app</div>
 
                     <div class="mb-3 proggress-bar-title">Laravel</div>
                     <div class="mb-2 proggress-bar-container">
                         <div class="value-proggress-70"></div>
                     </div>
                     <div class="mb-5 proggress-bar-note-yellow">Experienced to created api and web based laravel</div>
-
+                </div>
+                <div class="col-md-6 skill-child">
                     <div class="mb-3 proggress-bar-title">HTML</div>
                     <div class="mb-2 proggress-bar-container">
                         <div class="value-proggress-70"></div>
@@ -173,28 +248,18 @@
                     <div class="mb-2 proggress-bar-container">
                         <div class="value-proggress-80"></div>
                     </div>
-                    <div class="mb-5 proggress-bar-note-green">Java, Javascript, Dart, C and PHP</div>
-                </div>
-                <div class="col-md-6 skill-child">
+                    <div class="mb-5 proggress-bar-note-green">Java, Javascript, Dart, C, Kotlin, Swift and PHP</div>
+
                     <div class="mb-3 proggress-bar-title">Make simple ui with Figma</div>
                     <div class="d-flex flex-row justify-content-between mb-5 rating-container">
                         <i class="bi-star-fill"></i>
                         <i class="bi-star-fill"></i>
                         <i class="bi-star-fill"></i>
-                        <i class="bi-star"></i>
+                        <i class="bi-star-fill"></i>
                         <i class="bi-star"></i>
                     </div>
 
                     <div class="mb-3 proggress-bar-title">Make simple ilustration and icon with Inkscape</div>
-                    <div class="d-flex flex-row justify-content-between rating-container mb-5">
-                        <i class="bi-star-fill"></i>
-                        <i class="bi-star-fill"></i>
-                        <i class="bi-star-fill"></i>
-                        <i class="bi-star"></i>
-                        <i class="bi-star"></i>
-                    </div>
-
-                    <div class="mb-3 proggress-bar-title">I can learn new programming language quickly (2-3 weeks)</div>
                     <div class="d-flex flex-row justify-content-between rating-container mb-5">
                         <i class="bi-star-fill"></i>
                         <i class="bi-star-fill"></i>
@@ -234,39 +299,20 @@
         <div class="d-flex flex-column justify-content-center align-items-center send-message-container">
             <a href="mailto:hendzcode@gmail.com">
                 <div class="d-flex flex-row justify-content-center align-items-center mb-3 send-message-icon-container">
-                    <i class="bi-cursor"></i>
+                    <i class="bi bi-envelope"></i>
                 </div>
             </a>
             <div class="send-message-text">
-                Send Message
+                Send Me a Message
             </div>
         </div>
 
         <!-- Videp Modal Start -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div>
-                        <iframe src="https://www.youtube.com/embed/x2PV-IDmUOc" title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Videp Modal End -->
-
-        <!-- Videp Modal Start -->
-        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div>
-                        <iframe src="https://www.youtube.com/embed/5as11ObNhA0" title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                <div class="modal-content" style="background-color: transparent;">
+                    <div class="d-flex justify-content-center" style="width: 100%;">
+                        <img id="sample-source" src="./src/images/preview_poster.png" />
                     </div>
                 </div>
             </div>
@@ -274,35 +320,56 @@
         <!-- Videp Modal End -->
 
         <div class="mt-5 d-flex align-items-center justify-content-center">
-            <p style="font-size: 12px;">Copyright &copy; 2021 Virginia Hendras</p>
+            <p style="font-size: 14px;">Copyright &copy; 2021 Virginia Hendras</p>
         </div>
     </div>
 </body>
 
 <footer>
+    <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
+
+    <!-- BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js"
+        integrity="sha512-3fMsI1vtU2e/tVxZORSEeuMhXnT9By80xlmXlsOku7hNwZSHJjwcOBpmy+uu+fyWwGCLkMvdVbHkeoXdAzBv+w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- SCRIPT -->
     <script>
         $(document).ready(function () {
-            $(".portofolio-1").mouseenter(function () {
-                $("#portofolio-1-hover").fadeIn("fast");
-            });
-            $("#portofolio-1-hover").mouseleave(function () {
-                $("#portofolio-1-hover").fadeOut("fast");
-            });
+            $(".portofolio").each((index, el) => {
+                $(el).mouseenter(function () {
+                    var images = [
+                        "./src/images/preview_poster.png",
+                        "./src/images/preview_bookshelf.png",
+                        "./src/images/preview_same.png",
+                        "./src/images/preview_standings.png",
+                        "./src/images/preview_mobdex.png",
+                        "./src/images/preview_africa.png",
+                    ];
 
-            $(".portofolio-2").mouseenter(function () {
-                $("#portofolio-2-hover").fadeIn("fast");
-            });
-            $("#portofolio-2-hover").mouseleave(function () {
-                $("#portofolio-2-hover").fadeOut("fast");
+                    $("#sample-source")
+                        .removeAttr("src")
+                        .attr("src", images[index])
+
+                    $(el).prepend("<div data-bs-toggle='modal' data-bs-target='#exampleModal' id='portofolio-hover'>"
+                        + "<div class='d-flex flex-row justify-content-center align-items-center w'>"
+                        + "<i class='me-5 bi bi-eye play-btn'></i>"
+                        + "<h4 class='subtitle-play-demo'>OPEN IMAGE</h4></div></div>"
+                    );
+                });
+                $(el).mouseleave(function () {
+                    $("#portofolio-hover").remove()
+                });
             });
         });
     </script>

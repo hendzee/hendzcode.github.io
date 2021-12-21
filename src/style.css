@@ -117,7 +117,7 @@ icon-bullet {
     margin-bottom: 5em;
 }
 
-#portofolio{
+.portofolio{
     margin-left: auto;
     margin-right: auto;
 }
@@ -126,32 +126,26 @@ icon-bullet {
     width: 100% !important;
 }
 
-.portofolio-1 {
+.portofolio-odd {
     background-color: #222327;
     height: 412px;
     position: relative;
 }
 
-.portofolio-1:hover, .portofolio-2:hover {
+.portofolio-odd:hover, .portofolio-even:hover {
     cursor: pointer;
 }
 
-#portofolio-1-hover, #portofolio-2-hover {
+#portofolio-hover {
     position: absolute;
     top: 0;
     background-color: black;
     height: 412px;
     width: 100%;
-    display: none;
 }
 
-#portofolio-1-hover .w, #portofolio-2-hover .w {
+#portofolio-hover .w {
     height: 412px;
-}
-
-iframe {
-    width: 100%;
-    height: 315px;
 }
 
 .subtitle-play-demo {
@@ -163,7 +157,7 @@ iframe {
     font-size: 64px;
 }
 
-.portofolio-2 {
+.portofolio-even {
     background-color: #2A2B2F;
     height: 412px;
     position: relative;
@@ -177,12 +171,24 @@ iframe {
     text-align: center;
 }
 
-.portofolio-1 h5 {
+#subtitle-poster {
     color: #706FD3;
 }
 
-.portofolio-2 h5 {
+#subtitle-bookshelf {
     color: #1B9CFC;
+}
+
+#subtitle-standings {
+    color: #A0034F;
+}
+
+#subtitle-same {
+    color: #7D0633;
+}
+
+#subtitle-africa {
+    color: #FFAF02;
 }
 
 #skills {
@@ -276,14 +282,16 @@ iframe {
 }
 
 .send-message-icon-container {
-    width: 173px;
-    height: 173px;
-    border-radius: 85px;
-    border: 1px solid white;
+    width: 80px;
+    height: 80px;
 }
 
 .send-message-text {
     font-size: 24px;
+}
+
+.send-message-container i, .send-message-container .send-message-text {
+    color: #F39C12;
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -293,6 +301,10 @@ iframe {
 
     .image-profile-container img {
         height: 266px;
+    }
+
+    #sample-source{
+        max-width: 650px;
     }
 }
 
@@ -313,6 +325,10 @@ iframe {
 
     .description-profile p{
         font-size: 12px;
+    }
+
+    #sample-source{
+        max-width: 340px;
     }
 }
 
@@ -349,5 +365,9 @@ iframe {
     .skill-child {
         padding-left: 2em;
         padding-right: 2em;
+    }
+
+    #sample-source{
+        max-width: 300px;
     }
 }
