@@ -311,7 +311,8 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content" style="background-color: transparent;">
-                    <div class="d-flex justify-content-center" style="width: 100%;">
+                    <div class="d-flex flex-column align-items-center image-modal-container">
+                        <i class="bi bi-x-circle close-modal"></i>
                         <img id="sample-source" src="./src/images/preview_poster.png" />
                     </div>
                 </div>
@@ -346,6 +347,10 @@
     <!-- SCRIPT -->
     <script>
         $(document).ready(function () {
+            $(".close-modal").click(function () {
+                $('#exampleModal').modal('hide')
+            });
+
             $(".portofolio").each((index, el) => {
                 $(el).mouseenter(function () {
                     var images = [

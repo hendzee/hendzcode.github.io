@@ -294,6 +294,15 @@ icon-bullet {
     color: #F39C12;
 }
 
+.image-modal-container {
+    width: 100%;
+    position: relative;
+}
+
+.close-modal {
+    font-size: 48px;
+}
+
 @media only screen and (min-width: 426px) and (max-width: 768px) {
     .image-profile-container {
         height: 266px;
