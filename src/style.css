@@ -1,7 +1,7 @@
 body {
     background-color: #24262C;
     color: white;
-    font-family: "Nunito";
+    font-family: 'JetBrains Mono', monospace;
 }
 
 a {
@@ -65,7 +65,6 @@ a:hover {
 }
 
 .description-profile {
-    height: 666px;
     width: 372px;
 }
 
