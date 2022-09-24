@@ -131,20 +131,15 @@ icon-bullet {
     position: relative;
 }
 
-.portofolio-odd:hover, .portofolio-even:hover {
+.porto-detail {
+    background-color: #FFAF02;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 12px;
+}
+
+.porto-detail:hover {
     cursor: pointer;
-}
-
-#portofolio-hover {
-    position: absolute;
-    top: 0;
-    background-color: black;
-    height: 412px;
-    width: 100%;
-}
-
-#portofolio-hover .w {
-    height: 412px;
 }
 
 .subtitle-play-demo {
@@ -196,7 +191,7 @@ icon-bullet {
 
 .proggress-bar-container {
     width: 100%;
-    height: 18px;
+    height: 5px;
     background-color: #222327;
 }
 
@@ -217,19 +212,19 @@ icon-bullet {
 
 .value-proggress-90 {
     width: 90%;
-    height: 18px;
+    height: 5px;
     background-color: #ffc107;
 }
 
 .value-proggress-80 {
     width: 80%;
-    height: 18px;
+    height: 5px;
     background-color: #2A2B2F;
 }
 
 .value-proggress-70 {
     width: 70%;
-    height: 18px;
+    height: 5px;
     background-color: #2A2B2F;
 }
 
@@ -266,6 +261,10 @@ icon-bullet {
 
 #linkedin {
     background-color: #0FBCF9;   
+}
+
+#github {
+    background-color: #2d343a;
 }
 
 #gmail {
@@ -323,7 +322,10 @@ icon-bullet {
     background-color: rgba(36, 38, 44, 1);
     position: absolute;
     bottom: 0;
-    padding: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     width: 100%;
 }
 
@@ -334,6 +336,7 @@ icon-bullet {
 
 .article-info p {
     font-size: small;
+    margin-bottom: 0px;
 }
 
 .article-date h6 {
