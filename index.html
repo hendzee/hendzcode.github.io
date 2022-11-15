@@ -381,7 +381,7 @@
                         let currentArticle = response.items[i];
 
                         $("#article-list-container").append(
-                            '<div class="col-md-6 p-2">'
+                            '<div class="col-md-3 p-2">'
                                 + '<div class="article-card">'
                                 + '<img class="article-img" src="' + currentArticle.thumbnail + '" />'
                                 + '<a href="' + currentArticle.link + '" target="_blank"><div class="article-link-container">'
@@ -390,8 +390,6 @@
                                 + '<div class="article-info">'
                                 + '<h3 class="mb-2">' + currentArticle.title.substr(0, 60) + '</h3>'
                                 + '<div class="article-date"><h6 class="mb-3"><i class="bi-calendar me-2"></i>' + currentArticle.pubDate +  '<i class="bi-person ms-2 me-2"></i>' + currentArticle.author + '</h6></div>'
-                                + '<p>' + currentArticle.description.replace(/<[^>]+>/g, '').substr(0, 150) + 
-                                    '...' + '</p>'
                                 + '</div>'
                                 + '</div>'
                                 + '</div>'
