@@ -286,7 +286,8 @@ icon-bullet {
 }
 
 .article-card {
-    height: 400px;
+    width: 100%;
+    padding-top: 100%;
     background-color: #0FBCF9;
     position: relative;
 }
@@ -314,8 +315,9 @@ icon-bullet {
 .article-img {
     object-fit: cover;
     width: 100%;
-    height: 400px;
+    height: 100%;
     position: absolute;
+    top: 0;
 }
 
 .article-info {
