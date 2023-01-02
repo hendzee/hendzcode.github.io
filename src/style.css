@@ -297,7 +297,8 @@ icon-bullet {
     right: 0px;
     top: 0px;
     padding-left: 15px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-right: 15px;
     background-color: #F39C12;
     opacity: 1;
@@ -310,6 +311,7 @@ icon-bullet {
 
 .article-number-container h5 {
     font-size: 1em;
+    font-family: "Black Han Sans";
 }
 
 .article-img {

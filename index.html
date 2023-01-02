@@ -386,7 +386,7 @@
                                 + '<div class="article-card">'
                                 + '<img class="article-img" src="' + currentArticle.thumbnail + '" />'
                                 + '<div class="article-number-container">'
-                                + '<h5>' + (i + 1) + '</h5>'
+                                + '<h5>' + (i < 10 ? '0' : '') + (i + 1) + '</h5>'
                                 + '</div>'
                                 + '<div class="article-info">'
                                 + '<h3 class="mb-2">' + currentArticle.title.substr(0, 60) + '</h3>'
