@@ -292,7 +292,7 @@ icon-bullet {
     position: relative;
 }
 
-.article-link-container {
+.article-number-container {
     position: absolute;
     right: 0px;
     top: 0px;
@@ -303,12 +303,12 @@ icon-bullet {
     opacity: 1;
 }
 
-.article-link-container:hover {
+.article-number-container:hover {
     opacity: 0.8;
     cursor: pointer;
 }
 
-.article-link-container h5 {
+.article-number-container h5 {
     font-size: 1em;
 }
 
@@ -329,6 +329,7 @@ icon-bullet {
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
+    min-height: 120px;
 }
 
 .article-info h3 {

@@ -382,16 +382,18 @@
 
                         $("#article-list-container").append(
                             '<div class="col-md-3 p-2">'
+                                + '<a href="' + currentArticle.link + '" target="_blank">'
                                 + '<div class="article-card">'
                                 + '<img class="article-img" src="' + currentArticle.thumbnail + '" />'
-                                + '<a href="' + currentArticle.link + '" target="_blank"><div class="article-link-container">'
-                                + '<h5>open article</h5>'
-                                + '</div></a>'
+                                + '<div class="article-number-container">'
+                                + '<h5>' + (i + 1) + '</h5>'
+                                + '</div>'
                                 + '<div class="article-info">'
                                 + '<h3 class="mb-2">' + currentArticle.title.substr(0, 60) + '</h3>'
                                 + '<div class="article-date"><h6 class="mb-3"><i class="bi-calendar me-2"></i>' + currentArticle.pubDate +  '<i class="bi-person ms-2 me-2"></i>' + currentArticle.author + '</h6></div>'
                                 + '</div>'
                                 + '</div>'
+                                + '</a>'
                                 + '</div>'
                         );
                     }
