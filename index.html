@@ -377,6 +377,8 @@
                 if (response.status == 'ok') {
                     haveGetArticle = true;
 
+                    console.log(response.items)
+
                     for (let i=0; i<response.items.length; i++) {
                         let currentArticle = response.items[i];
 
@@ -384,7 +386,7 @@
                             '<div class="col-md-3 p-2">'
                                 + '<a href="' + currentArticle.link + '" target="_blank">'
                                 + '<div class="article-card">'
-                                + '<img class="article-img" src="' + currentArticle.thumbnail + '" />'
+                                + '<img class="article-img" src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*nSUMpBd5R3RoOVpHBT-rmQ.png" />'
                                 + '<div class="article-number-container">'
                                 + '<h5>' + (i < 10 ? '0' : '') + (i + 1) + '</h5>'
                                 + '</div>'
