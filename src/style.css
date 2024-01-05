@@ -133,6 +133,8 @@ icon-bullet {
 
 .porto-detail {
     background-color: #FFAF02;
+    padding-top: 4px;
+    padding-bottom: 4px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 12px;
@@ -159,6 +161,7 @@ icon-bullet {
 
 .portofolio-desc-container {
     max-width: 422px;
+    margin-bottom: 12px;
 }
 
 .portofolio-desc-container p {
@@ -269,9 +272,27 @@ icon-bullet {
 
 #gmail {
     background-color: #e55039;
+    position: relative;
+}
+
+.pending-banner {
+    background-color: #3C1A269C;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pending-banner h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .image-modal-container {
+    display: table;
+    table-layout: fixed;
     width: 100%;
     position: relative;
 }
