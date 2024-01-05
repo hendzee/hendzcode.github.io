@@ -132,12 +132,12 @@ icon-bullet {
 }
 
 .porto-detail {
-    background-color: #FFAF02;
+    background-color: #555760;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 15px;
     padding-right: 15px;
-    border-radius: 12px;
+    border-radius: 4px;
 }
 
 .porto-detail:hover {
